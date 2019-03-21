@@ -14,6 +14,14 @@ public class SimpleCalculator {
 	}
 	
 	public int divide(int a, int b) { 
+		
+		try { 
+			int dividebyZero = a / 0;
+			return dividebyZero;
+		}
+		catch(Exception e) { 
+			System.out.println("Can't divide by zero!");
+		}
 		return a/b;
 	}
 	
