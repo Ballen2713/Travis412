@@ -13,7 +13,7 @@ public class SimpleCalculator {
 		return a*b;
 	}
 	
-	public double divide(double a, double b) { 
+	public int divide(int a, int b) { 
 		return a/b;
 	}
 }
